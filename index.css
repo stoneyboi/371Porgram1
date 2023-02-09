@@ -1,0 +1,10 @@
+#box{
+    display: grid;
+    grid-template-columns: 30% 15% 40% 15%;
+    grid-template-rows: 100px 1fr 1fr 100px;
+    grid-template-areas: 
+    "Area1 Area2 Area2 Area2"
+    "Area3 Area4 Area4 Area5"
+    "Area3 Area6 Area7 Area7"
+    "Area3 Area8 Area8 Area8" ;
+}
